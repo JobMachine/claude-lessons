@@ -6,12 +6,12 @@ description: Pull a Claude lesson meeting from Granola and save its transcript a
 # Add a lesson from Granola
 
 1. **Find the meeting** with the Granola MCP tools (server `granola`). Default: the most recent meeting today where Ion explains Claude. If the user gave a title or date, use that. If more than one meeting could match, ask which.
-2. **Get the full transcript** and Granola's notes for that meeting.
+2. **Get Granola's notes** with `get_meetings`, then try `get_meeting_transcript`. Transcripts need a paid Granola plan: if it errors, don't retry. Skip `transcript.md` and tell the user.
 3. **Pick a folder**: `lessons/YYYY-MM-DD-<short-kebab-topic>/` (meeting date, not today's date). If it exists, update it instead of making a new one.
-4. **Write `transcript.md`**:
+4. **Write `transcript.md`** (only if step 2 returned a transcript):
    - Header: title, date, attendees (first names only).
    - The transcript as `**Speaker:** text` lines, unchanged except for redactions.
-5. **Write `summary.md`** in plain words for non-engineers:
+5. **Write `summary.md`** in plain words for non-engineers. Use only what's in the notes or transcript; don't add anything that wasn't said. Link the Granola note at the top.
    - `# <Topic>` and the date
    - **In one line**
    - **What we covered** (bullets)

@@ -9,7 +9,7 @@ Each session is recorded in Granola. This repo keeps the transcript and a summar
 lessons/
   2026-10-29-<topic>/
     summary.md      # what we covered, key ideas, things to try
-    transcript.md   # full transcript from Granola
+    transcript.md   # full transcript (only when Granola provides one, which needs its paid plan)
 ```
 
 ## Lessons
@@ -17,6 +17,7 @@ lessons/
 | Date | Topic | Summary |
 |------|-------|---------|
 <!-- lessons-index: new rows go below this line, newest first -->
+| 2026-10-28 | Claude Code fundamentals and managing context | [summary](lessons/2026-10-28-claude-code-fundamentals/summary.md) |
 
 ## Adding a lesson (for Ion)
 
