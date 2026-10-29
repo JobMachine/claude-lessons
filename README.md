@@ -11,9 +11,9 @@ Started at [Job Machine](https://jobmachine.com) to get the whole team speaking 
 
 ## Lessons
 
+<!-- lessons-index: add new rows as the first row of the table below, newest first -->
 | # | Date | Lesson | |
 |---|------|--------|---|
-<!-- lessons-index: new rows go below this line, newest first -->
 | 1 | 2026-10-28 | **Context is everything**: agents live in a folder, think like people, and the first message costs the most | [slides](lessons/2026-10-28-claude-code-fundamentals/summary.md#slides) · [summary](lessons/2026-10-28-claude-code-fundamentals/summary.md) |
 
 <p align="center">

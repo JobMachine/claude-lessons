@@ -20,7 +20,7 @@ description: Pull a Claude lesson meeting from Granola and save its transcript a
    - **Questions asked** (with answers, if given)
    - **Links** mentioned
 6. **Redact** before saving: API keys, tokens, passwords, URLs with secrets, and any candidate's personal data (names, emails, phones). Replace with `[redacted]`. Tell the user what you redacted.
-7. **Update the index** in `README.md`: add a row right under the `lessons-index` comment, newest first, in the same format as the rows below it.
+7. **Update the index** in `README.md`: add a row as the first row of the table (right after the `|---|` line, never between the header and that line), newest first, in the same format as the other rows.
    **Slides (when the user asks):** copy the previous lesson's `deck/build.py`, rewrite the slides (one idea each: short headline, one drawing, at most one line), run it, then `python3 tools/render.py lessons/<folder>/deck` and add a `## Slides` section to the summary.
    **This repo is public:** double-check step 6 before committing.
 8. **Commit and push** to `main`: `git add -A && git commit -m "Add lesson: <topic> (YYYY-MM-DD)"` then `git push`.
