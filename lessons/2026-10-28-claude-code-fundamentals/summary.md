@@ -1,6 +1,6 @@
 # Claude Code fundamentals and managing an agent's context
 
-**Date:** 2026-10-28 · **Host:** Ion · [Granola notes](https://notes.granola.ai/d/0e7e21de-386d-480e-a6a7-ac86816189cd) · [Slides](https://claude.ai/artifact/85rWeDt3pnbxQJBYHKuuXc)
+**Date:** 2026-10-28 · **Host:** Ion
 
 **In one line:** An agent works from what it can see in its folder, so give it good context, a clear goal and small tasks.
 
@@ -40,3 +40,15 @@
 ## Next
 
 Daily sessions until everyone speaks the same language.
+
+## Slides
+
+![cover](slides/01-cover.png)
+![folder](slides/02-folder.png)
+![people](slides/03-people.png)
+![lazy](slides/04-lazy.png)
+![oneshot](slides/05-oneshot.png)
+![memory](slides/06-memory.png)
+![skills](slides/07-skills.png)
+![tokens](slides/08-tokens.png)
+![trythis](slides/09-trythis.png)
