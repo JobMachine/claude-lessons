@@ -14,10 +14,10 @@ lessons/
 
 ## Lessons
 
-| Date | Topic | Summary |
-|------|-------|---------|
+| Date | Topic | Summary | Slides |
+|------|-------|---------|--------|
 <!-- lessons-index: new rows go below this line, newest first -->
-| 2026-10-28 | Claude Code fundamentals and managing context | [summary](lessons/2026-10-28-claude-code-fundamentals/summary.md) |
+| 2026-10-28 | Claude Code fundamentals and managing context | [summary](lessons/2026-10-28-claude-code-fundamentals/summary.md) | [deck](https://claude.ai/artifact/85rWeDt3pnbxQJBYHKuuXc) |
 
 ## Adding a lesson (for Ion)
 
